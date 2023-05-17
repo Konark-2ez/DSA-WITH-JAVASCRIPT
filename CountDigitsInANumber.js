@@ -1,4 +1,6 @@
 // Given an integer N , write program to count number of digits in N.
+
+//NAIVE APPROACH
 function check(N){
     let count=0
     while(N!=0){
@@ -7,6 +9,16 @@ function check(N){
     }
     return count
 }
+//Using .toString() 
+function check(N){
+  
+ 
+    N = N.toString()
+    return N.length
+    
+   
+}
+
 function runProgram(input){
     var input = input.trim().split("\n")
     var tc = +input[0]
