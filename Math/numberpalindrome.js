@@ -12,7 +12,7 @@ function runProgram(input){
     var input = input.trim().split("\n")
     var tc = +input[0]
     var N = +input[1]
-    if(checkPalindrome(N)===n){
+    if(checkPalindrome(N)===N){
         console.log("Yes it is a palindrome")
     }else{
         console.log("No")
