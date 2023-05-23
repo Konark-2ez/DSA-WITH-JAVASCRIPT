@@ -27,6 +27,10 @@
    # What is stack overflow?
      <p> Every time a recursive call is made the function gets stored in a stack and waits till base condition is reached but if the base condition is not reached or is absent then this function calls gets piled up resulting into memory getting full and hence resulting in stack overflow.
 
+
+  # Questions on recursion:
+  - &#128512; 1) PrintNumbers.js
+
  #  &#129300; Array Questions
 
  Arrays in javascript can hold any data type  as its element. Arrays are collection of similar or non similar elements.
